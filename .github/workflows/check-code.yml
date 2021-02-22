@@ -11,7 +11,7 @@ on:
 jobs:
   check-code:
     name: Check code
-    runs-on: window-lastest
+    runs-on: windows-lastest
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v2
