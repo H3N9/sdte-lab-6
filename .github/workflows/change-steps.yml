@@ -1,0 +1,16 @@
+name: Check code when push
+
+on: 
+  push:
+    branches:
+      - "main"
+
+jobs:
+  check-code:
+    name: steps not stpets
+    runs-on: ubunto-lastest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+      - run: npm install
+      - run: npm run ci
