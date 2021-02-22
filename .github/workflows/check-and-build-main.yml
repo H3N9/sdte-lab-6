@@ -31,5 +31,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: h3n9/sdte-lab-6:latest
+          tags: h3n9s/sdte-lab-6:lastest
           push: true
