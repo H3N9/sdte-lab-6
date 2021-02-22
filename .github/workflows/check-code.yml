@@ -3,7 +3,8 @@ name: Check code when push
 on: 
   push:
     branches:
-      - "master"
+      - "*"
+      - "!master"
   pull_request:
     branches:
       - "master"
